@@ -36,4 +36,12 @@ $(function(){
   $('.resumen-helado li:nth-child(2) p').animateNumber({number:30},1200);
   $('.resumen-helado li:nth-child(3) p').animateNumber({number:4},600);
 
+  //Cuenta regresiva
+  $('.cuenta-regresiva').countdown('2019/01/31 15:00:00',function(event){
+    $('#dias').html(event.strftime('%D'));
+    $('#horas').html(event.strftime('%H'));
+    $('#minutos').html(event.strftime('%M'));
+    $('#segundos').html(event.strftime('%S'));
+  });
+
 });
