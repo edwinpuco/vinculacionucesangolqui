@@ -693,7 +693,19 @@ footer h3{
 footer h3 span{
   color: #fe4918;
 }
-
+footer .ultimos-tweets li{
+  margin-bottom: 10px;
+}
+footer nav.redes-sociales{
+  text-align: left;
+}
+p.copyright{
+  background-color: #2e2e2e;
+  color: white;
+  padding: 10px 0;
+  margin: 20px 0 0 0;
+  text-align: center;
+}
 
 
 /* ==========================================================================
