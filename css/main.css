@@ -564,7 +564,7 @@ div.tabla-precio ul li:before{
 /** Mapa **/
 div.mapa{
   height: 420px;
-  background-color: green;
+  /*background-color: green;*/
 }
 /** Testimoniales **/
 div.testimoniales{
