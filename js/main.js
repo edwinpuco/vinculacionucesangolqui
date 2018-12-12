@@ -16,6 +16,7 @@
 
 $(function(){
   //alert("funciona");
+
   //programa de helados
   //$('div.ocultar').hide();
   $('.programa-evento .info-curso:first').show();
@@ -29,4 +30,10 @@ $(function(){
     //console.log(enlace);
     return false;
   });
+
+  //Animaciones para los números
+  $('.resumen-helado li:nth-child(1) p').animateNumber({number:20},1000);
+  $('.resumen-helado li:nth-child(2) p').animateNumber({number:30},1200);
+  $('.resumen-helado li:nth-child(3) p').animateNumber({number:4},600);
+
 });
