@@ -343,6 +343,13 @@ div.barra{
   background-color: #353535;
   padding: 20px 0;
 }
+.fixed{
+  position: fixed;
+  width: 100%;
+  top:0;
+  left: 0;
+  z-index: 2;
+}
 div.logo{
   width: 80%;
   float: left;
@@ -359,6 +366,7 @@ div.logo img{
 /** Navegación principal **/
 nav.navegacion-principal{
   display: none;
+  width: 100%;
 }
 nav.navegacion-principal a{
   font-family: 'Oswald', sans-serif;
@@ -371,6 +379,7 @@ nav.navegacion-principal a{
   display:block;
   text-align: center;
   margin-bottom: 20px;
+  clear: both;
 }
 nav.navegacion-principal a:hover{
   background-color: #fe4918;
