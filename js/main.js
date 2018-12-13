@@ -55,10 +55,18 @@ $(function(){
     return false;
   });
 
-  //Animaciones para los números
-  $('.resumen-helado li:nth-child(1) p').animateNumber({number:20},1000);
-  $('.resumen-helado li:nth-child(2) p').animateNumber({number:30},1200);
-  $('.resumen-helado li:nth-child(3) p').animateNumber({number:4},600);
+  //Animaciones para los números con waypoint
+  var resumenLista=$('.resumen-helado');
+  if(resumenLista.length>0){
+    $('.resumen-helado').waypoint(function(){
+      $('.resumen-helado li:nth-child(1) p').animateNumber({number:20},1000);
+      $('.resumen-helado li:nth-child(2) p').animateNumber({number:30},1200);
+      $('.resumen-helado li:nth-child(3) p').animateNumber({number:4},600);
+    },{
+      offset:'60%'
+    });
+  }
+
 
   //Cuenta regresiva
   $('.cuenta-regresiva').countdown('2019/01/31 15:00:00',function(event){
