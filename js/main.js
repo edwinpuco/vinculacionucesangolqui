@@ -17,6 +17,9 @@
 $(function(){
   //alert("funciona");
 
+  //lettering
+  $('.nombre-sitio').lettering();
+
   //programa de helados
   //$('div.ocultar').hide();
   $('.programa-evento .info-curso:first').show();

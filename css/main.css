@@ -191,6 +191,81 @@ ul{
 .float-right{
   float: right;
 }
+/** lettering **/
+h1.nombre-sitio span{
+  display:inline-block;
+  position:relative;
+  letter-spacing:-1px;
+  -webkit-transition:all 0.2s ease-out;
+}
+h1.nombre-sitio span:hover{
+  top: 3px;
+}
+@media only screen and (min-width:992px){
+  .char2,
+  .char11{
+    color:#e36b23;
+    text-shadow:#9b4d1f -4px 4px 0
+  }
+.char3,
+.char10{
+  z-index:10;
+  color:#e6c92e;
+  text-shadow:#9c8b26 -4px 4px 0
+}
+.char4,
+.char9{
+  color:#5da028;
+  text-shadow:#427021 -4px 4px 0
+}
+.char5,
+.char8{
+  color:#4584be;
+  text-shadow:#2f597f -4px 4px 0
+}
+.char6,
+.char7{
+  color:#7073cf;
+  text-shadow:#4a4d88 -4px 4px 0
+}
+.char1{
+  -webkit-transform:rotate(-3deg)
+}
+.char3{
+  top:-1px;
+  -webkit-transform:rotate(2deg)
+}
+.char4{
+  top:-7px
+}
+.char6{
+  top:-7px;
+  -webkit-transform:rotate(2deg)
+}
+.char7{
+}
+.char8{
+  top:1px;
+  -webkit-transform:rotate(-2deg)
+}
+.char9{
+  -webkit-transform:rotate(2deg)
+}
+.char10{
+  top:-65px;width:36px;
+}
+.char10:hover{
+  -webkit-transition-duration:0.4s;
+}
+.char11{
+  top:2px;
+  left:-30px;width:50px;
+  -webkit-transform:rotate(-3deg)
+}
+.char12{
+  left:-24px
+}
+}
 /** header **/
 div.hero{
   background-image: url(../img/helados/portada.jpg);
@@ -724,6 +799,15 @@ p.copyright{
   padding: 10px 0;
   margin: 20px 0 0 0;
   text-align: center;
+}
+/** INTERNAS **/
+/* Helados */
+body.helados .navegacion-principal .activo{
+  border-bottom: 2px solid #fe4918;
+}
+div.galeria a{
+  display: inline-block;
+  margin-bottom: 5px;
 }
 
 
