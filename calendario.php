@@ -1,26 +1,26 @@
 <?php include_once 'includes/templates/header.php'; ?>
   <section class="seccion contenedor">
-    <h2>Calendario</h2>
+    <h2>Calendario de eventos</h2>
     <?php
-    try{
-      require_once('includes/funciones/bd_conexion.php'):
-      $sql = " SELECT * FROM helados ";
-      $resultado = $conn->query($sql);
-    }catch(Exception $e){
-      echo $e->getMessage();
-    }
+      try {
+        require_once('includes/funciones/bd_conexion.php');
+        $sql = "SELECT * FROM helado ";
+        $resultado = $conn->query($sql);
+      } catch (\Exception $e) {
+        echo $e->getMessage();
+      }
+
      ?>
+
      <div class="calendario">
        <?php
-       //echo $sql;
-       $helados = $resultado->fetch_assoc();
+        //echo $sql;
+        $eventos = $resultado->fetch_assoc();
         ?>
         <pre>
-          <?php var_dump($helados); ?>
+          <?php var_dump($eventos); ?>
         </pre>
      </div>
-     <?php
-     $conn->close();
-      ?>
+     <?php $conn->close(); ?>
   </section>
 <?php include_once 'includes/templates/footer.php'; ?>
