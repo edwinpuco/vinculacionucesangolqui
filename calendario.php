@@ -3,17 +3,17 @@
     <h2>Calendario</h2>
     <?php
     try{
-      require_once('includes\funciones\bd_conexion.php'):
-      $sql="SELECT * FROM helados ";
-      $resultado =$conn->query($sql);
-    }catch(/Exception $e){
-      //echo $e->getMessage();
-      $helados =$resultado->fetch_assoc();
+      require_once('includes/funciones/bd_conexion.php'):
+      $sql = " SELECT * FROM helados ";
+      $resultado = $conn->query($sql);
+    }catch(Exception $e){
+      echo $e->getMessage();
     }
      ?>
      <div class="calendario">
        <?php
-       echo $sql;
+       //echo $sql;
+       $helados = $resultado->fetch_assoc();
         ?>
         <pre>
           <?php var_dump($helados); ?>
