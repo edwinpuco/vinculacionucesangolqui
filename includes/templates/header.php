@@ -59,7 +59,7 @@
       <nav class="navegacion-principal clearfix">
         <a href="helados.php">helados</a>
         <a href="calendario.php">Calendario</a>
-        <a href="#">Submenu 3</a>
+        <a href="helados2.php">Galería</a>
         <a href="#">Submenu 4</a>
       </nav>
     </div>
