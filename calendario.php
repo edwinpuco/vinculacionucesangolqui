@@ -15,11 +15,12 @@
      <div class="calendario">
        <?php
         //echo $sql;
-        $eventos = $resultado->fetch_assoc();
-        ?>
+        while($eventos = $resultado->fetch_assoc()){ ?>
         <pre>
           <?php var_dump($eventos); ?>
         </pre>
+        <?php } ?>
+
      </div>
      <?php $conn->close(); ?>
   </section>
