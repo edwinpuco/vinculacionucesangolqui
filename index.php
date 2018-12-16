@@ -65,8 +65,7 @@
       </div>
     </div>
   </section>
-  
-
+    <?php include_once 'includes/templates/galeria.php'; ?>
   <div class="contador parallax">
     <div class="contenedor">
       <ul class="resumen-helado clearfix">

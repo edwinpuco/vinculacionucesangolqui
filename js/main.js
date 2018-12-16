@@ -78,6 +78,6 @@ $(function(){
 
 
   //colorbox
-  $('.galeria-info').colorbox({inline:true, width:"50%"});
+  $(".galeria-info").colorbox({inline:!0, width:"50%"});
 
 });
