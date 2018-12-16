@@ -76,4 +76,8 @@ $(function(){
     $('#segundos').html(event.strftime('%S'));
   });
 
+
+  //colorbox
+  $('.galeria-info').colorbox({inline:true, width:"50%"});
+
 });

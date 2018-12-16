@@ -65,47 +65,7 @@
       </div>
     </div>
   </section>
-  <section class="helados contenedor seccion">
-    <h2>Nuestros helados</h2>
-    <ul class="lista-helados clearfix">
-      <li>
-        <div class="helado">
-          <img src="img/helados/STICKER1.png" alt="sticker1">
-          <p>helado1</p>
-        </div>
-      </li>
-      <li>
-        <div class="helado">
-          <img src="img/helados/STICKER2.png" alt="sticker2">
-          <p>helado1</p>
-        </div>
-      </li>
-      <li>
-        <div class="helado">
-          <img src="img/helados/STICKER3.png" alt="sticker3">
-          <p>helado1</p>
-        </div>
-      </li>
-      <li>
-        <div class="helado">
-          <img src="img/helados/STICKER4.png" alt="sticker4">
-          <p>helado1</p>
-        </div>
-      </li>
-      <li>
-        <div class="helado">
-          <img src="img/helados/STICKER5.png" alt="sticker5">
-          <p>helado1</p>
-        </div>
-      </li>
-      <li>
-        <div class="helado">
-          <img src="img/helados/STICKER6.png" alt="sticker6">
-          <p>helado1</p>
-        </div>
-      </li>
-    </ul>
-  </section>
+  
 
   <div class="contador parallax">
     <div class="contenedor">

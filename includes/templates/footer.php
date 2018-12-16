@@ -34,6 +34,8 @@
   <script src="js/jquery.countdown.min.js"></script>
   <script src="js/jquery.lettering.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/jquery.colorbox-min.js"></script>
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
